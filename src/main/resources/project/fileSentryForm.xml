@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<editor>
+    <label>Continuous Integration - Trigger File</label>
+    <version>2.2.5</version>
+    <description>A schedule that is enabled for ElectricSentry continuous integration using the modification time of a file.</description>
+    <help>/commander/pages/@PLUGIN_NAME@/@PLUGIN_KEY@_help?s=Administration&amp;ss=Plugins</help>
+    <formElement>
+        <type>textarea</type>
+        <label>Trigger file name(s):</label>
+        <property>TriggerFileName</property>
+        <required>1</required>
+        <documentation>The full path name of a file or set of files separated by a "|" character to be monitored.</documentation>
+    </formElement>
+    <formElement>
+        <type>entry</type>
+        <label>Quiet time minutes:</label>
+        <property>QuietTimeMinutes</property>
+        <documentation>The number of minutes required with no modification to the file before launching the procedure.</documentation>
+    </formElement>
+    <formElement>
+        <type>checkbox</type>
+        <label>Enabled for ElectricSentry:</label>
+        <property>TriggerFlag</property>
+        <checkedValue>2</checkedValue>
+        <uncheckedValue>0</uncheckedValue>
+        <initiallyChecked>1</initiallyChecked>
+        <documentation>Enable for continuous integration monitoring by ElectricSentry.</documentation>
+    </formElement>
+    <formElement>
+        <property>scheduleDisabled</property>
+        <value>1</value>
+    </formElement>
+</editor>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin>
+    <key>ECSCM-File</key>
+    <version>@PLUGIN_VERSION@</version>
+    <label>ECSCM-File</label>
+    <description>SCM Plugin for File</description>
+    <author>CloudBees</author>
+    <authorUrl>http://www.electric-cloud.com/support</authorUrl>
+    <category>Source Code Management</category>
+    <commander-version min="3.6"/>
+    <depends min="1.0">ECSCM</depends>
+    <help>ECSCM-File_help.xml</help>
+    <repositoryUrl>https://github.com/electric-cloud-community/ECSCM-File</repositoryUrl>
+<detailedDescription>Use this plugin with ElectricSentry to watch for changes in files.</detailedDescription>
+<catalogLabel>EC File SCM</catalogLabel>
+</plugin>
