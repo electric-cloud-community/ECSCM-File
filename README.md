@@ -89,19 +89,19 @@ activity required before launching the procedure.</p></td>
 
 ## ECSCM-File 2.0.8
 
-Migrated to community
+-   Migrated to community
 
 ## ECSCM-File 2.0.7
 
-The documentation has been migrated to the main documentation site.
+-   The documentation has been migrated to the main documentation site.
 
 ## ECSCM-File 2.0.6
 
-Renaming to "CloudBees CD/RO"
+-   Renaming to "CloudBees CD/RO"
 
 ## ECSCM-File 2.0.5
 
-Renaming to "CloudBees"
+-   Renaming to "CloudBees"
 
 ## ECSCM-File 2.0.4
 
